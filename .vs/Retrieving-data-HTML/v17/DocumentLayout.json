@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\products\\product.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\products\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-list\\product-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\products\\product-list\\product-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\products\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-detail\\product-detail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\products\\product-detail\\product-detail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-detail\\product-detail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\products\\product-detail\\product-detail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\utilities\\result.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "product-detail.component.html",
+              "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-detail\\product-detail.component.html",
+              "RelativeDocumentMoniker": "src\\app\\products\\product-detail\\product-detail.component.html",
+              "ToolTip": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-detail\\product-detail.component.html",
+              "RelativeToolTip": "src\\app\\products\\product-detail\\product-detail.component.html",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-31T16:17:14.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "product-detail.component.ts",
+              "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-detail\\product-detail.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\products\\product-detail\\product-detail.component.ts",
+              "ToolTip": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-detail\\product-detail.component.ts",
+              "RelativeToolTip": "src\\app\\products\\product-detail\\product-detail.component.ts",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-31T16:15:16.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "result.ts",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\utilities\\result.ts",
               "RelativeDocumentMoniker": "src\\app\\utilities\\result.ts",
@@ -47,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "product-list.component.html",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-list\\product-list.component.html",
               "RelativeDocumentMoniker": "src\\app\\products\\product-list\\product-list.component.html",
@@ -60,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "product-list.component.ts",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-list\\product-list.component.ts",
               "RelativeDocumentMoniker": "src\\app\\products\\product-list\\product-list.component.ts",
               "ToolTip": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product-list\\product-list.component.ts",
               "RelativeToolTip": "src\\app\\products\\product-list\\product-list.component.ts",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBcAAAA7AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-05-31T14:54:37.094Z",
               "EditorCaption": ""
@@ -79,7 +113,7 @@
               "RelativeDocumentMoniker": "src\\app\\products\\product.service.ts",
               "ToolTip": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\products\\product.service.ts",
               "RelativeToolTip": "src\\app\\products\\product.service.ts",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAwEQAAAAyAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAGQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-05-31T14:36:07.772Z",
               "EditorCaption": ""

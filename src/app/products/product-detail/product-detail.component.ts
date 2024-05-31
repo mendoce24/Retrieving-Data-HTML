@@ -1,8 +1,7 @@
-import { Component, Input, inject } from '@angular/core';
+import { Component, Input, computed, inject } from '@angular/core';
 
 import { NgIf, NgFor, CurrencyPipe, AsyncPipe } from '@angular/common';
 import { Product } from '../product';
-import { EMPTY, catchError, tap } from 'rxjs';
 import { ProductService } from '../product.service';
 import { CartService } from '../../cart/cart.service';
 
@@ -13,32 +12,22 @@ import { CartService } from '../../cart/cart.service';
   imports: [AsyncPipe, NgIf, NgFor, CurrencyPipe]
 })
 export class ProductDetailComponent {
-  errorMessage = '';
 
   // Injecting
   private productService = inject(ProductService);
   private cartService = inject(CartService);
 
   // Product to display
-  product$ = this.productService.product$
-    .pipe(
-      tap(() => console.log('Pipeline Product retrieved')),
-      catchError(err => {
-        this.errorMessage = err;
-        return EMPTY;
-      })
-    );
+  product = this.productService.product;
+  errorMessage = this.productService.productError;
 
   // Set the page title
-  //pageTitle = this.product ? `Product Detail for: ${this.product.productName}` : 'Product Detail';
-  pageTitle = '';
+  pageTitle = computed(() => this.product ?
+    `Product Detail for: ${this.product()?.productName}`
+    : 'Product Detail');
 
   addToCart(product: Product) {
     this.cartService.addToCart(product);
-
-
-
-
   }
 
 }
