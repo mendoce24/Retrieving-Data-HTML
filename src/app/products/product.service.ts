@@ -1,11 +1,12 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { Injectable, inject } from '@angular/core';
+import { Injectable, computed, inject, signal } from '@angular/core';
 import { BehaviorSubject, Observable, catchError, combineLatest, filter, map, of, shareReplay, switchMap, tap, throwError } from 'rxjs';
 import { Product } from './product';
-import { ProductData } from './product-data';
 import { HttpErrorService } from '../utilities/http-error.service';
 import { ReviewService } from '../reviews/review.service';
 import { Review } from '../reviews/review';
+import { toObservable, toSignal } from '@angular/core/rxjs-interop';
+import { Result } from '../utilities/Result';
 
 @Injectable({
   providedIn: 'root'
@@ -19,17 +20,27 @@ export class ProductService {
   private errorService = inject(HttpErrorService);
   private reviewService = inject(ReviewService);
 
-  private productSelectedSubject = new BehaviorSubject<number | undefined>(undefined);
-  readonly productSelected$ = this.productSelectedSubject.asObservable();
+  selectedProductId = signal<number | undefined>(undefined);
 
-  readonly products$ = this.http.get<Product[]>(this.productsUrl)
+
+  private productsResult$ = this.http.get<Product[]>(this.productsUrl)
     .pipe(
+      map(p => ({ data: p } as Result<Product[]>)),
       tap(p => console.log(JSON.stringify(p))),
       shareReplay(1),
-      catchError(err => this.handleError(err))
-    );
+      catchError(err => of({
+        data: [],
+        error: this.errorService.formatError(err)
+      } as Result<Product[]>))
+  );
 
-  readonly product1$ = this.productSelected$
+  private productsResult = toSignal(this.productsResult$,
+    { initialValue: ({ data: [] } as Result<Product[]>) });
+
+  products = computed(() => this.productsResult().data);
+  productsError = computed(() => this.productsResult().error);
+
+  private productResult$ = toObservable(this.selectedProductId)
     .pipe(
       filter(Boolean),
       switchMap(id => {
@@ -38,24 +49,31 @@ export class ProductService {
           .pipe(
             tap(() => console.log('In http.get by id pipeline')),
             switchMap(product => this.getProductWithReviews(product)),
-            catchError(err => this.handleError(err))
+            catchError(err => of({
+              data: undefined,
+              error: this.errorService.formatError(err)
+            } as Result<Product>))
           );
-      })
+      }),
+      map(p => ({ data: p } as Result<Product>))
   );
+  private productResult = toSignal(this.productResult$);
+  product = computed(() => this.productResult()?.data);
+  productError = computed(() => this.productResult()?.error);
 
-  product$ = combineLatest([
-    this.productSelected$,
-    this.products$]).pipe(
-      map(([selectedProductId, products]) =>
-        products.find(product => product.id === selectedProductId)
-      ),
-      filter(Boolean),
-      switchMap(product => this.getProductWithReviews(product)),
-      catchError(err => this.handleError(err))
-  );
+  //product$ = combineLatest([
+  //  this.productSelected$,
+  //  this.products$]).pipe(
+  //    map(([selectedProductId, products]) =>
+  //      products.find(product => product.id === selectedProductId)
+  //    ),
+  //    filter(Boolean),
+  //    switchMap(product => this.getProductWithReviews(product)),
+  //    catchError(err => this.handleError(err))
+  //);
 
   productSelected(selectedProductId: number): void {
-    this.productSelectedSubject.next(selectedProductId);
+    this.selectedProductId.set(selectedProductId);
   }
 
   private getProductWithReviews(product: Product): Observable<Product> {
