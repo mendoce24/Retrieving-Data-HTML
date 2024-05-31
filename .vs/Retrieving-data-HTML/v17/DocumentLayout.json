@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-item\\cart-item.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\cart\\cart-item\\cart-item.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-item\\cart-item.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\cart\\cart-item\\cart-item.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-total\\cart-total.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\cart\\cart-total\\cart-total.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-item\\cart-item.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\cart\\cart-item\\cart-item.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-list\\cart-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,33 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "cart-item.component.html",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-item\\cart-item.component.html",
               "RelativeDocumentMoniker": "src\\app\\cart\\cart-item\\cart-item.component.html",
               "ToolTip": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-item\\cart-item.component.html",
               "RelativeToolTip": "src\\app\\cart\\cart-item\\cart-item.component.html",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-05-30T19:27:17.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "cart-item.component.ts",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-item\\cart-item.component.ts",
               "RelativeDocumentMoniker": "src\\app\\cart\\cart-item\\cart-item.component.ts",
               "ToolTip": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-item\\cart-item.component.ts",
               "RelativeToolTip": "src\\app\\cart\\cart-item\\cart-item.component.ts",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABQAAAAgAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-05-30T19:16:55.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "cart-total.component.html",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-total\\cart-total.component.html",
               "RelativeDocumentMoniker": "src\\app\\cart\\cart-total\\cart-total.component.html",
@@ -100,12 +100,11 @@
               "RelativeToolTip": "src\\app\\cart\\cart-total\\cart-total.component.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-30T14:30:04.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T14:30:04.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "cart-total.component.ts",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart-total\\cart-total.component.ts",
               "RelativeDocumentMoniker": "src\\app\\cart\\cart-total\\cart-total.component.ts",
@@ -113,8 +112,7 @@
               "RelativeToolTip": "src\\app\\cart\\cart-total\\cart-total.component.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-30T14:22:57.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T14:22:57.63Z"
             },
             {
               "$type": "Document",
@@ -178,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "cart.service.ts",
               "DocumentMoniker": "C:\\Users\\CesarMendozaE-Trace\\OneDrive - E-TRACE\\Documenten\\CesarPrograms\\DotNetLab\\Angular\\Retrieving-data-HTML\\src\\app\\cart\\cart.service.ts",
               "RelativeDocumentMoniker": "src\\app\\cart\\cart.service.ts",
@@ -186,8 +184,7 @@
               "RelativeToolTip": "src\\app\\cart\\cart.service.ts",
               "ViewState": "AQIAABwAAAAAAAAAAAAAACQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-30T12:56:16.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:56:16.126Z"
             },
             {
               "$type": "Document",
