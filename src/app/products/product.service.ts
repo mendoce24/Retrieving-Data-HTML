@@ -57,6 +57,7 @@ export class ProductService {
   //    }),
   //    map(p => ({ data: p } as Result<Product>))
   //);
+
   // Find the product in the existing array of products
   private foundProduct = computed(() => {
     // Dependent signals
