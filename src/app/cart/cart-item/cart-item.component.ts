@@ -1,8 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
 import { CurrencyPipe, NgFor, NgIf } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { CartItem } from '../cart';
+import { CartService } from '../cart.service';
 
 @Component({
   selector: 'sw-cart-item',
@@ -14,6 +15,8 @@ export class CartItemComponent {
 
   @Input({ required: true }) cartItem!: CartItem;
 
+  private cartService = inject(CartService);
+
   // Quantity available (hard-coded to 8)
   // Mapped to an array from 1-8
   qtyArr = [...Array(8).keys()].map(x => x + 1);
@@ -22,10 +25,13 @@ export class CartItemComponent {
   exPrice = this.cartItem?.quantity * this.cartItem?.product.price;
 
   onQuantitySelected(quantity: number): void {
-
+    this.cartService.UpdateQuantity(this.cartItem, Number(quantity));
   }
 
   removeFromCart(): void {
+    this.cartService.RemoveFromCart(this.cartItem);
+
+
 
   }
 }

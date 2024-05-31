@@ -47,7 +47,7 @@ export class ProductService {
     this.productSelected$,
     this.products$]).pipe(
       map(([selectedProductId, products]) =>
-      products.find(product => product.id === selectedProductId)
+        products.find(product => product.id === selectedProductId)
       ),
       filter(Boolean),
       switchMap(product => this.getProductWithReviews(product)),

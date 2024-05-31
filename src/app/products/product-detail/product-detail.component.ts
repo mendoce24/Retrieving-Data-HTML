@@ -4,6 +4,7 @@ import { NgIf, NgFor, CurrencyPipe, AsyncPipe } from '@angular/common';
 import { Product } from '../product';
 import { EMPTY, catchError, tap } from 'rxjs';
 import { ProductService } from '../product.service';
+import { CartService } from '../../cart/cart.service';
 
 @Component({
     selector: 'pm-product-detail',
@@ -14,8 +15,11 @@ import { ProductService } from '../product.service';
 export class ProductDetailComponent {
   errorMessage = '';
 
-  // Product to display
+  // Injecting
   private productService = inject(ProductService);
+  private cartService = inject(CartService);
+
+  // Product to display
   product$ = this.productService.product$
     .pipe(
       tap(() => console.log('Pipeline Product retrieved')),
@@ -30,6 +34,11 @@ export class ProductDetailComponent {
   pageTitle = '';
 
   addToCart(product: Product) {
+    this.cartService.addToCart(product);
+
+
+
+
   }
 
 }

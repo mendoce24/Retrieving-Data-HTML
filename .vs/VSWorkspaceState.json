@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\cart",
+    "\\src\\app\\cart\\cart-item",
+    "\\src\\app\\cart\\cart-total",
+    "\\src\\app\\products",
+    "\\src\\app\\products\\product-list",
+    "\\src\\app\\reviews",
+    "\\src\\app\\utilities"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\app\\cart\\cart-item\\cart-item.component.ts",
   "PreviewInSolutionExplorer": false
 }
